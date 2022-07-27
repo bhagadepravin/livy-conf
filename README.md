@@ -69,5 +69,5 @@ exit
 
 sudo -u livy bash
 $ curl -k  -H "Content-Type: application/json" -X POST -d '{ "file":"/tmp/spark-examples_2.11-2.4.8.3.2.2.0-1.jar", "className":"org.apache.spark.examples.SparkPi" }' 'http://mstr3.odp.centos7.adsre:8998/batches' -H "X-Requested-By: livy"
-{"id":0,"name":null,"owner":null,"proxyUser":null,"state":"starting","appId":null,"appInfo":{"driverLogUrl":null,"sparkUiUrl":null},"log":["stdout: ","\nstderr: ","\nYARN Diagnostics: "]}
+
 ```
