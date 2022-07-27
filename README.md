@@ -63,7 +63,7 @@ $ cp /usr/odp/3.2.2.0-1/hadoop/lib/jersey-* /usr/odp/3.2.2.0-1/livy2/jars/
 ```
 
 ```bash
- sudo -u hdfs bash
+sudo -u hdfs bash
 hdfs dfs -put /usr/odp/current/spark2-client/examples/jars/spark-examples_2.11-2.4.8.3.2.2.0-1.jar /tmp
 exit
 
