@@ -1,4 +1,4 @@
-# livy-conf
+# livy-conf ODP
 
 ```bash
 yum install livy2_3_2_2_0_1-0.7.1-1 git
